@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <title>Ecommerce</title>
+  </head>
+  <body >
+    <main>
+      <header>
+        <img
+          src="/img/logo.svg"
+          alt="https://www.freepik.es/vector-gratis/coleccion-logotipos-tienda-online-diseno-plano_13819083.htm#query=logo%20shop&position=13&from_view=search&track=sph"
+        />
+        <div id="boxCart" class="box-cart">
+          <img
+            id="cart"
+            class="cart"
+            src="/img/logo_car.svg"
+            alt="https://www.freepik.es/vector-gratis/coleccion-logotipos-tienda-online-diseno-plano_13819083.htm#query=logo%20shop&position=13&from_view=search&track=sph"
+          />
+          <p id="itemsCart" class="item-cart hidden"></p>
+        </div>
+        <!-- <button id="btnViewProducts" class="btn">Mostar productos</button>
+        <button id="btnViewProductsM" class="btn">
+          Mostar productos Mercado libre
+        </button> -->
+      </header>
+      <section id="mainCards" class="main-cards"></section>
+      <div id="btnPaginacion" class="box-btn hidden">
+        <button id="btnAnterior" class="btn hidden">Anterior</button>
+        <button id="btnSiguiente" class="btn">Siguiente</button>
+      </div>
+      <section id="mainViewCart" class="hidden main-view-cart">
+        <div id="boxItemscart" class="box-items-cart">
+          <h2>Carrito de compras</h2>
+          <div id="bodyCart" class="cart-card-body">
+          </div>
+        </div>
+      </section>
+    </main>
+    <script src="app.js"></script>
+  </body>
+</html>
+<!-- Imagen de <a href="https://www.freepik.es/vector-gratis/coleccion-logotipos-tienda-online-diseno-plano_13819083.htm#query=logo%20shop&position=13&from_view=search&track=sph">Freepik</a> -->
